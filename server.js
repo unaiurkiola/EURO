@@ -50,7 +50,3 @@ console.log("openshift mysql db OK!");
 /* Accesible todas las carpetas de public*/
 app.use(express.static(__dirname + '/public'));
 
-/* Modulado */
-/* Rutas del codigo modulado */
-require('./app/api')(app);
-require('./app/routes')(app);
