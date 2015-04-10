@@ -13,6 +13,14 @@ var LocalStrategy = require('passport-local').Strategy;
 var bodyParser = require('body-parser');
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
+
+
+
+app.get('/', function(req, res) {
+  res.redirect('/index.html');
+});
+
+
 /* Session 
 /* Control de sesion del administrador 
 var session = require('express-session');
@@ -48,5 +56,5 @@ console.log("openshift mysql db OK!");
 }
 
 /* Accesible todas las carpetas de public*/
-app.use(express.static(__dirname + '/public'));
+/*app.use(express.static(__dirname + '/public'));
 
