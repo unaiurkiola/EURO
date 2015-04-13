@@ -341,6 +341,7 @@
 
 		input[type="checkbox"] + label,
 		input[type="radio"] + label {
+				
 			text-decoration: none;
 			color: #666;
 			cursor: pointer;
@@ -380,6 +381,7 @@
 
 		input[type="checkbox"]:checked + label:before,
 		input[type="radio"]:checked + label:before {
+
 			background: #666666;
 			border-color: #666666;
 			color: #ffffff;
