@@ -1,8 +1,7 @@
 var express = require('express');
 var app = express();
-var http = require("http");
 
-  
+
 
 app.use(express.static(__dirname + '/public'));
 
@@ -17,7 +16,4 @@ var server = app.listen(process.env.PORT || 3000, function(){
 });
 
 
-  http.createServer(function (req, res) {
-    res.writeHead(301, {"Location": "http://www.enigmatic-chamber-1976.herokuapp.com"});
-    res.end();
-}).listen(80);
+  
