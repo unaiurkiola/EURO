@@ -939,6 +939,8 @@
 		}
 
 		.main.style2 {
+			margin-left: -5%;
+			margin-right: -5%;
 			background-color: #333;
 			color: rgba(255, 255, 255, 1);
 			background-attachment: fixed,							fixed;
@@ -1270,6 +1272,8 @@
 /* Footer */
 
 	#footer {
+		margin-left: -5%;
+		margin-right: -5%;
 		padding: 2em 0 2em 0;
 		background-color: #4686a0;
 		color: rgba(255, 255, 255, 0.75);
