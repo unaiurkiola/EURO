@@ -402,27 +402,27 @@
 	}
 
 	::-webkit-input-placeholder {
-		color: #999 !important;
+		color: #ffffff !important;
 		opacity: 1.0;
 	}
 
 	:-moz-placeholder {
-		color: #999 !important;
+		color: #ffffff !important;
 		opacity: 1.0;
 	}
 
 	::-moz-placeholder {
-		color: #999 !important;
+		color: #ffffff !important;
 		opacity: 1.0;
 	}
 
 	:-ms-input-placeholder {
-		color: #999 !important;
+		color: #ffffff !important;
 		opacity: 1.0;
 	}
 
 	.formerize-placeholder {
-		color: #999 !important;
+		color: #ffffff !important;
 		opacity: 1.0;
 	}
 
@@ -935,6 +935,8 @@
 
 		.main.style1 {
 			background: #fff;
+			margin-top: -1.9em;
+
 
 		}
 
@@ -1393,6 +1395,7 @@
 
 /*Unai*/
 .subtitles{
+
 	text-align: center;
 	padding: 0.1em;
 	font-size: 30px;
@@ -1411,7 +1414,7 @@
 /*menu*/
 
 * {
-	margin:0;
+
 	padding:0;
 }
  
@@ -1469,13 +1472,14 @@ section {
  
 @media screen and (max-width:1100px ) {
 
-
+		.main.style1 {
+margin-top: 0em;
+}
 
 	#header {
 
 		margin-top: 0em;
 	}
-
 
 #header .inner {
 	margin-top: 3em;
@@ -1486,7 +1490,7 @@ section {
 		height:100%;
 		left:-100%;
 		margin:0;
-		position: fixed;
+		position:fixed;
 	}
  
 	header nav ul li {
@@ -1544,4 +1548,7 @@ div#page {
 			background-color: rgba(135, 135, 135, 1);
 		}	
 
+
+
+/*Unai*/
 
