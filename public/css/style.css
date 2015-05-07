@@ -402,27 +402,27 @@
 	}
 
 	::-webkit-input-placeholder {
-		color: #ffffff !important;
+		color: #999 !important;
 		opacity: 1.0;
 	}
 
 	:-moz-placeholder {
-		color: #ffffff !important;
+		color: #999 !important;
 		opacity: 1.0;
 	}
 
 	::-moz-placeholder {
-		color: #ffffff !important;
+		color: #999 !important;
 		opacity: 1.0;
 	}
 
 	:-ms-input-placeholder {
-		color: #ffffff !important;
+		color: #999!important;
 		opacity: 1.0;
 	}
 
 	.formerize-placeholder {
-		color: #ffffff !important;
+		color: #999 !important;
 		opacity: 1.0;
 	}
 
@@ -1489,7 +1489,7 @@ padding-top: 4em;
 }
 	header nav {
 
-		width:40%;
+		width:30%;
 		height:100%;
 		left:-100%;
 		margin:0;
