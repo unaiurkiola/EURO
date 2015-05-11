@@ -1,0 +1,14 @@
+doctype 5
+html 
+  head
+    title Send email in node js
+	  link(rel='stylesheet', href='//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.0/css/bootstrap-combined.min.css')
+	  link(rel="stylesheet", href="/css/styles.css")
+  body
+    .container#wrapper
+	  .span10
+	    h2 Ingresa tu email
+	    form(action="/sendemail", method="post")
+		  input(type="text", name="email", id="input-email")
+		  br
+		  button(class="btn btn-primary") Enviar  
