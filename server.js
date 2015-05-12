@@ -22,7 +22,7 @@ var server = app.listen(process.env.PORT || 3000, function(){
 });
 
 
-app.post('/mail', function(req, res) {
+app.get('/mail', function(req, res) {
 			var nodemailer = require('nodemailer');
 
 			// create reusable transporter object using SMTP transport
