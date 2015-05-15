@@ -76,7 +76,7 @@
 
 	h1 {
 		font-size: 2em;
-		line-height: 3em;
+		line-height: 2em;
 	}
 
 	h2 {
@@ -748,7 +748,7 @@
 			}
 
 		table td {
-			padding: 0.75em 0.75em;
+			padding: 0.2em 0.9em;
 		}
 
 		table th {
@@ -1062,6 +1062,7 @@
 	#header {
 
 		margin-top: -2em;
+
 		padding: 0em 0 9em 0;
 
 		background-color: #4686a0;
@@ -1167,7 +1168,7 @@
 
 
 		#header p {
-			margin: 1em 0 0 0;
+			margin: 0em 0 0 0;
 		}
 
 		#header .actions {
@@ -1188,6 +1189,7 @@
 			}
 
 		#header .inner {
+
 			-moz-transition: -moz-transform 1.5s ease, opacity 2s ease;
 			-webkit-transition: -webkit-transform 1.5s ease, opacity 2s ease;
 			-o-transition: -o-transform 1.5s ease, opacity 2s ease;
@@ -1210,6 +1212,7 @@
 		}
 
 			#header .inner .actions {
+
 				-moz-transition: -moz-transform 1.25s ease;
 				-webkit-transition: -webkit-transform 1.25s ease;
 				-o-transition: -o-transform 1.25s ease;
@@ -1229,6 +1232,7 @@
 			}
 
 		#header:after {
+
 			transition: -moz-opacity 1s ease;
 			transition: -webkit-opacity 1s ease;
 			transition: -o-opacity 1s ease;
@@ -1275,6 +1279,7 @@
 /* Footer */
 
 	#footer {
+
 		margin-left: -5%;
 		margin-right: -5%;
 		padding: 1em 0 2em 0;
