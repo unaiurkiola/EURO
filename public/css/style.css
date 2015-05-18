@@ -652,6 +652,7 @@
 					}
 
 		ul.actions {
+
 			cursor: default;
 			list-style: none;
 			padding-left: 0;
@@ -1329,6 +1330,7 @@
 				background-color: rgba(255, 255, 255, 0.125);
 			}
 
+
 			#footer input[type="submit"]:active,
 			#footer input[type="reset"]:active,
 			#footer input[type="button"]:active,
@@ -1563,4 +1565,12 @@ div#page {
 
 
 /*Unai*/
+
+#but{
+	 border: #C7C7C7 1px solid; 
+/*
+-webkit-box-shadow: 0px 0px 30px 4px rgba(50, 50, 50, 0.75);
+-moz-box-shadow:    0px 0px 30px 4px rgba(50, 50, 50, 0.75);
+box-shadow:         0px 0px 30px 4px rgba(50, 50, 50, 0.75);*/
+}
 
